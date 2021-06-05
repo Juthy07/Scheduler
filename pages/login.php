@@ -1,4 +1,4 @@
-<?php require_once './partials/head.php';
+<?php require_once '../components/partials/head.php';
 
     $head = head('Login');
 
@@ -8,13 +8,14 @@
     <?php echo $head ?>
     <body>
         <div class="w-screen h-screen flex justify-center items-center">
-            <div class="p-4">
+            <div class="p-4 border">
+                <h1 class="text-xl border-b">Login</h1>
                 <form action="/">
                     <div class="p-2">
                         <input type="text" name="username" placeholder="username"/>
                     </div>
                     <div class="p-2">
-                        <input type="text" name="username" placeholder="username"/>
+                        <input type="password" name="username" placeholder="********"/>
                     </div>
                     <div class="p-2">
                         <button>Login</button>
