@@ -9,15 +9,22 @@
     <body>
         <div class="container mx-auto">
             <!-- Search bar -->
-            <div class="w-full flex items-center p-4 gap-8">
+            <div class="w-full flex items-center p-4 gap-2">
                 <div class="flex-1">
                     <input type="text" class="w-full border p-3" placeholder="Search">
                 </div>
                 <div class="">
                     <button class="p-3 text-center bg-purple-600 text-white">
+                        <a href="../pages/schedule.php">
                         Create Schedule
                     </button>
-                </div>
+                </div class="">
+                    <button class="p-3 text-center bg-red-600 text-white">
+                        <a href="../pages/login.php">
+                        Log Out
+                    </button>
+                <div>
+            </div>
             </div>
             <!-- Search results -->
             <div class="grid grid-cols-6 py-4 gap-x-4 gap-y-8">

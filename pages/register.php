@@ -10,7 +10,7 @@
         <div class="w-screen h-screen flex justify-center items-center">
             <div class="p-4 border shadow-md">
                 <h1 class="text-xl pb-2 border-b mb-4">Register</h1>
-                <form action="/">
+                <form method ="POST" action="registerprocess.php">
                     <div class="p-2">
                         <input class="border p-2" type="text" name="username" placeholder="username"/>
                     </div>
@@ -21,7 +21,7 @@
                         <input class="border p-2"  type="password" name="re-password" placeholder="********"/>
                     </div>
                     <div class="p-2">
-                        <button class="w-full border bg-purple-600 text-white p-2">Register</button>
+                        <button name="submit" class="w-full border bg-purple-600 text-white p-2 shadow-sm hover:shadow-xl">Register</button>
                     </div>
                 </form> 
             </div>

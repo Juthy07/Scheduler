@@ -39,7 +39,7 @@
                         <button type="button" class="border rounded-full h-12 w-12 hover:bg-purple-600 hover:text-white" onclick="addRow()">+</button>
                     </div>
                     <div class="flex gap-4 ml-auto justify-end mt-8">
-                        <button class="border p-3 hover:bg-purple-600 hover:text-white">Save</button>                
+                        <button class="border p-3 hover:bg-purple-600 hover:text-white"><a href="../pages/dashboard.php">Save</button>                
                         <button class="border p-3 hover:bg-red-600 hover:text-white">Cancel</button>                
                     </div>    
                 </form>
